@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Plumber</title>
+  <!-- CSS BootStrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <!-- Favicon -->
+  <!-- <link rel="icon" href="favicon.ico"> -->
+  <!-- JS, Popper.js, and jQuery -->
+  <script src="js/nanobar.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/8f1d3c3193.js" crossorigin="anonymous"></script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;900&display=swap&family=MuseoModerno:wght@200;300;500;700&family=Amiri&family=Caveat:wght@700&family=Ubuntu:wght@300;500;700" rel="stylesheet">
+</head>
+
+<body>
+  <section class="colored-section" id="title">
+    <script>
+      var options = {
+        classname: 'progress-bar',
+      };
+      var nanobar = new Nanobar(options);
+      nanobar.go(30);
+      nanobar.go(76);
+      nanobar.go(100);
+    </script>
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <!-- Brand -->
+        <a class="navbar-brand" href="#">ArturTłustowski</a>
+
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">USŁUGI</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">GALERIA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">KONTAKT</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="heading">
+        <h3>TWÓJ SĄSIEDNI</h3>
+        <h1>ZAKŁAD INSTALACYJNY</h1>
+      </div>
+    </div>
+  </section>
+  <!-- Features -->
+  <section class="white-section" id="features">
+    <div class="container-fluid">
+      <div class="row">
+
+        <div class="feature-box col-lg-4 col-md-12">
+          <i class="icon fas fa-faucet fa-4x"></i>
+          <h3 class="feature-title">Instalacje wod-kan.</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam id maximus lacus. Fusce nec lectus non massa dapibus tempus. Vestibulum sagittis tristique orci, sed interdum odio mattis et. Cras eros metus, lobortis sed sollicitudin at,
+            malesuada id ipsum.</p>
+        </div>
+
+        <div class="feature-box col-lg-4 col-md-12">
+          <i class="icon fas fa-wrench fa-4x"></i>
+          <h3 class="feature-title">Montaż kotłowni.</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam id maximus lacus. Fusce nec lectus non massa dapibus tempus. Vestibulum sagittis tristique orci, sed interdum odio mattis et. Cras eros metus, lobortis sed sollicitudin at,
+            malesuada id ipsum.</p>
+        </div>
+
+        <div class="feature-box col-lg-4 col-md-12">
+          <i class="icon fas fa-burn fa-4x"></i>
+          <h3 class="feature-title">Serwis kotłów.</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam id maximus lacus. Fusce nec lectus non massa dapibus tempus. Vestibulum sagittis tristique orci, sed interdum odio mattis et. Cras eros metus, lobortis sed sollicitudin at,
+            malesuada id ipsum.</p>
+        </div>
+
+      </div>
+      <button class="pricing-button btn btn-features btn-lg" type="button">Dowiedz się więcej</button>
+    </div>
+  </section>
+
+  <!-- Tools image -->
+  <section id="tools">
+
+  </section>
+
+  <!-- Testimonials -->
+
+  <section class="colored-section" id="testimonials">
+
+    <div id="carousel" class="carousel slide" data-ride="false">
+      <ol class="carousel-indicators">
+        <li data-target="#carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel" data-slide-to="1"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <h2 class="testimonial-text">"Wszystko zgodnie z projektem. Najlepszy fachowiec w okolicy!"</h2>
+          <img class="testimonial-image" src="img/man1.jpg" alt="man-profile">
+          <em>JAN KOWALSKI</em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="testimonial-text">"Zdecydowanie najlepszy instalator w okolicy!"</h2>
+          <img class="testimonial-image" src="img/man2.jpg" alt="man2-profile">
+          <em>MICHAŁ NOWAK</em>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </a>
+      <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </a>
+    </div>
+
+  </section>
+<!-- Press -->
+<!-- <section id="press">
+    <img class="press-logo" src="img/vaillant.png" alt="vaillantlogo">
+    <img class="press-logo" src="img/seunier.png" alt="seunier-logo">
+
+  </section> -->
+  <!-- Description -->
+
+  <section class="white-section" id="description">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="description-box col-lg-6 col-md-12">
+          <div class="card">
+          <div class="card-header">
+            <h3>NASZE REALIZACJE</h3>
+          </div>
+          <div class="card-body">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam id maximus lacus. Fusce nec lectus non massa dapibus tempus. Vestibulum sagittis tristique orci, sed interdum odio mattis et. Cras eros metus, lobortis sed sollicitudin at,
+              malesuada id ipsum.</p>
+            <button class="pricing-button btn btn-features btn-lg" type="button">Galeria</button>
+          </div>
+        </div>
+        </div>
+
+        <div class="description-box col-lg-6 col-md-12">
+          <div class="card">
+          <div class="card-header">
+            <h3>O NAS</h3>
+          </div>
+          <div class="card-body">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam id maximus lacus. Fusce nec lectus non massa dapibus tempus. Vestibulum sagittis tristique orci, sed interdum odio mattis et. Cras eros metus, lobortis sed sollicitudin at,
+              malesuada id ipsum.</p>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to action -->
+
+  <section class="colored-section" id="cta">
+    <div class="container-fluid">
+
+      <h3 class="big-heading">Jesteś zainteresowany naszą ofertą?</h3>
+      <button type="button" class="btn btn-outline-light btn-lg join-button"><i class="fas fa-sign-in-alt" style="padding-right:5px;"></i>Skontaktuj się z nami</button>
+
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer class="white-section" id="footer">
+    <div class="container-fluid">
+      <i class="footer-icon fab fa-instagram fa-2x"></i>
+      <i class="footer-icon fab fa-facebook fa-2x"></i>
+      <i class="footer-icon far fa-envelope fa-2x"></i>
+      <p>© Copyright 2020 2sty</p>
+
+    </div>
+  </footer>
+  <script src="js/index.js" charset="utf-8"></script>
+</body>
+
+</html>
